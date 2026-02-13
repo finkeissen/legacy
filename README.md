@@ -1,92 +1,166 @@
-# Legacy (inadmissibility) — matrix antecedents
+# legacy
 
-This repository archives legacy material that has been explicitly classified as
-inadmissible for operational, analytical, or decision-making use.
+**Before the Matrix.  
+Foundational structures for analytical systems.**
 
-It exists to preserve context, prevent repetition, and enforce structural STOP
-conditions — not to rehabilitate, correct, or refine prior material.
+---
+
+## Purpose
+
+`legacy` is a conceptual and structural reference repository.
+
+It captures **prior assumptions, decisions, patterns, contradictions, and limits**
+that exist *before* analytical artifacts are instantiated or operationalized.
+
+The repository is intentionally non-operational.
+Its role is to preserve structure, context, and tension — not to produce outputs.
+
+Commercial use is permitted under the repository license.
+
+This repository preserves assumptions, contradictions, and structural ideas
+that we deliberately did not move into clean, operational systems
+(Matrix, MMS) — because formalizing them would introduce too much
+tension, ambiguity, or loss.
+
+
+> **Analogy (imperfect, but useful):**  
+> Think of `legacy` as the basement architecture of a very orderly museum.
+> Everything here is preserved, but not everything belongs in the exhibition.
+> Not because it is worthless — but because putting it upstairs would distort
+> what visitors are meant to see.
+
+> Not because it is worthless,
+> but because moving it upstairs would disturb the clarity of the exhibition.
+
+
+
+## In one sentence
+
+This repository collects assumptions, contradictions, and structural ideas
+that we deliberately did **not** move into clean, operational systems
+(Matrix, MMS) — because they generate too much tension, ambiguity,
+or loss when formalized.
+
+
+---
+
+## Position in the Architecture
+
+`legacy` exists **upstream of applied systems** and complements other repositories
+in a layered architecture:
+
+- **research-program**  
+  Defines epistemic admissibility, constraints, and STOP conditions.
+
+- **MMS (Matrix Management System)**  
+  Operatively manages admissible claims and relations.
+
+- **Matrix**  
+  Contains instantiated, problem-bound artifacts and records.
+
+**`legacy` sits before all three.**
+
+It provides the *historical, structural, and conceptual substrate*
+from which admissibility rules, management structures,
+and instantiated artifacts ultimately emerge.
 
 ---
 
 ## What this repository is
 
-- An append-only archive of legacy material
-- A structured record of inadmissibility decisions
-- A reference for recurring structural failure patterns
-- A negative knowledge base (“do not use”, with reasons)
+- A reference space for **foundational structures**
+- A record of **past assumptions and decisions**
+- A collection of **patterns, contradictions, and failure modes**
+- A traceability layer for **non-integrable or tension-bearing material**
+- A counter-structure to premature formalization or optimization
 
-The material collected here may be incomplete, incorrect, misleading,
-structurally unsound, or contextually dangerous.
+Material here may be incomplete, outdated, contradictory,
+or incompatible with later systems — and is retained *because* of that.
 
-Archival inclusion preserves traceability — not validity.
+Preservation does **not** imply endorsement.
+Non-operational status does **not** imply lack of value.
+
+*This repository is primarily intended for contributors and readers
+already familiar with the research-program, MMS, or Matrix context.*
 
 ---
 
 ## What this repository is not
 
-- Not a knowledge base
-- Not a source of truth
-- Not a collection of lessons learned
-- Not a place for improvement, correction, or debate
-- Not a rehabilitation pipeline
+- Not an operational system
+- Not a knowledge base or source of truth
+- Not a decision or recommendation engine
+- Not a validation or evaluation layer
+- Not a replacement for research-program, MMS, or Matrix
 
-No content in this repository should be used as input for active systems
-unless it has been explicitly reclassified elsewhere.
+Nothing in this repository is intended for direct operational use
+without explicit reinterpretation or reclassification elsewhere.
+
+---
+
+## How to read the repository
+
+A minimal orientation path:
+
+1. `antecedents/`  
+   Structural predecessors and concrete cases that inform later constraints
+
+2. `patterns/`  
+   Reusable contradiction patterns and structural triggers
+
+3. `raw/`  
+   Unprocessed legacy material retained for traceability and context
+
+4. Domain folders (`epistemic/`, `institutional/`, `structural/`, …)  
+   Conceptual groupings, not execution layers
+
+---
+
+## On inadmissibility and limits
+
+Some material in this repository is **not directly admissible**
+for operational or analytical use *as-is*.
+
+This does **not** mean it is wrong or useless.
+
+It means:
+- it cannot be safely integrated without loss,
+- it exposes unresolved tensions or boundary conditions,
+- or it violates constraints that later systems must respect.
+
+Inadmissibility here is **structural**, not moral or emotional.
 
 ---
 
 ## Contract
 
-By design and convention:
+By convention:
 
-- Archiving does **not** imply endorsement
-- Preservation does **not** imply future use
-- Classification is **structural**, not emotional or moral
-- Items stored here are **STOP-triggering by default**
-- Reinterpretation or correction happens outside this repository
+- Preservation does not imply authority
+- Structure does not imply endorsement
+- Visibility does not imply readiness
+- Contradictions are retained, not resolved
+- STOP conditions are respected, not bypassed
 
-This contract is non-negotiable.
-
----
-
-## How to read this repository
-
-A minimal navigation path:
-
-1. `antecedents/failure-modes/`  
-   Structural reasons why material becomes inadmissible
-
-2. `antecedents/cases/`  
-   Concrete archived cases, each with an explicit classification gate
-
-3. `patterns/`  
-   Reusable structural triggers and contradiction patterns
-
-4. `raw/`  
-   Unprocessed legacy material, retained for traceability only
-
----
-
-## How to add a case (append-only)
-
-To archive a new inadmissible item:
-
-1. Create a new numeric folder under `antecedents/cases/`
-2. Add the following files:
-   - `gate.md` — classification metadata and STOP rationale
-   - `case.md` — description, context, and references
-3. Reference at least one failure mode
-4. Update `antecedents/INDEX.md`
-
-Existing cases must not be altered or rewritten.
-Corrections or reinterpretations belong elsewhere.
+Reinterpretation, correction, or instantiation
+happens **outside** this repository.
 
 ---
 
 ## Status
 
-This repository is intentionally conservative, slow-moving,
-and resistant to reinterpretation.
+`legacy` is intentionally conservative and slow-moving.
 
-Its purpose is to remember what must not be reused.
+Its purpose is not to optimize or converge,
+but to ensure that **what comes after the Matrix
+does not forget what came before it.**
+
+
+### A very small example
+
+A pattern like *“proxy measure vs. real outcome”* may appear here
+because it cannot be safely operationalized on its own.
+In later systems, it might inform constraints or warnings —
+but here it is kept in its unresolved form.
+
 
