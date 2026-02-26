@@ -33,7 +33,6 @@ tension, ambiguity, or loss.
 > but because moving it upstairs would disturb the clarity of the exhibition.
 
 
-
 ## In one sentence
 
 This repository collects assumptions, contradictions, and structural ideas
@@ -44,21 +43,36 @@ or loss when formalized.
 
 ---
 
-## Position in the Architecture
+## Architecture Overview
 
-`legacy` exists **upstream of applied systems** and complements other repositories
-in a layered architecture:
+The architecture consists of four strictly separated layers:
 
-- **research-program**  
-  Defines epistemic admissibility, constraints, and STOP conditions.
+0. **Legacy**  
+   Preserves prior assumptions,
+   unresolved contradictions,
+   structural patterns,
+   and contextual material
+   that exist *before* admissibility,
+   governance,
+   or instantiation.
+           ↓
+1. **Research Program (RP)**  
+   Defines ontological primitives
+   and admissible structural forms.
+           ↓
+2. **Meta-Management System (MMS)**  
+   Enforces admissibility rules
+   without structural or epistemic authority.
+           ↓
+3. **Matrix**  
+   Records concrete instantiations,
+   conflicts,
+   STOPs,
+   and explicit absences.
 
-- **MMS (Matrix Management System)**  
-  Operatively manages admissible claims and relations.
+The Matrix contains only what remains after RP definition and MMS enforcement.
 
-- **Matrix**  
-  Contains instantiated, problem-bound artifacts and records.
-
-**`legacy` sits before all three.**
+No layer may absorb the role of another.
 
 It provides the *historical, structural, and conceptual substrate*
 from which admissibility rules, management structures,
@@ -69,6 +83,7 @@ and instantiated artifacts ultimately emerge.
 ## What this repository is
 
 - A reference space for **foundational structures**
+
 - A record of **past assumptions and decisions**
 - A collection of **patterns, contradictions, and failure modes**
 - A traceability layer for **non-integrable or tension-bearing material**
@@ -163,4 +178,29 @@ because it cannot be safely operationalized on its own.
 In later systems, it might inform constraints or warnings —
 but here it is kept in its unresolved form.
 
+## Role in the pipeline
+
+`legacy` functions as the epistemic sink of the architecture.
+
+Artifacts may arrive here when:
+- admissibility cannot be established,
+- contradictions remain unresolved,
+- formalization would distort the structure,
+- or STOP conditions are triggered in MMS or Hypotheses.
+
+Material can later be reinterpreted, but not operationalized from here directly.
+
+## Interfaces
+
+Legacy interacts with the following layers:
+
+- Research Program → defines admissible structural forms
+- MMS → routes inadmissible artifacts to Legacy via STOP
+- Matrix → excludes artifacts that fail admissibility
+- Hypotheses → regress here when falsifiability or context binding fails
+
+## External orientation
+
+This repository is rarely read first.  
+It becomes meaningful once the Research Program and MMS constraints are understood.
 
