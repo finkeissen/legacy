@@ -1,4 +1,4 @@
-# legacy
+# LEGACY
 
 **Before the Matrix.  
 Foundational structures for analytical systems.**
